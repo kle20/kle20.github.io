@@ -1686,7 +1686,7 @@ input, select, textarea {
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: hsl(186, 60%, 50%);
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -2009,9 +2009,9 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
-			background-color: #303030;
-			color: #999;
-			text-shadow: -1px -1px 0px #181818;
+			background-color: hsl(266, 35%, 35%);
+			color: hsl(0, 0%, 100%);
+			text-shadow: -1px -1px 0px hsl(0, 0%, 25%);
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
@@ -2036,7 +2036,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: hsl(266, 40%, 25%);
 		text-align: center;
 		position: fixed;
 		left: 0;
