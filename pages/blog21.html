@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kyana Le Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+    
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f5f5f5;
+            }
+            .blog-header {
+                background-color: hsl(266, 35%, 35%);
+                color: #fff;
+                text-align: center;
+                padding: 1rem;
+                max-width: 1300px;
+                margin: auto;
+                position: relative;
+            }
+            .blog-container {
+                max-width: 1300px;
+                margin: 2rem auto;
+                padding: 2rem;
+                background-color: #fff;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+            }
+            .blog-title {
+                color: #ffffff;
+                margin-top: 20px;
+            }
+            .blog-subtitle {
+                color: #666;
+            }
+            .blog-image {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 1rem;
+            }
+            .blog-paragraph {
+                line-height: 1.6;
+            }
+            .blog-tag {
+                background-color: hsl(266, 35%, 35%);
+                color: #fff;
+                padding: 0.2rem 0.5rem;
+                border-radius: 3px;
+                font-size: 0.8rem;
+                margin-bottom: 1rem;
+                display: inline-block;
+            }
+        </style>
+</head>
+<body>
+    <!-- Nav -->
+    <nav id="nav" style="position: sticky;">
+        <ul class="container">
+            <li><a href="../index.html">Home</a></li>
+        </ul>
+	</nav>
+
+    <header class="blog-header">
+        <h1 class="blog-title">How ARGs Play with Design Principles</h1>
+    </header>
+    <div class="blog-container">
+        <div class="blog-tag">#DirectedAnalysis</div>
+        <br />
+        <img class="blog-image" src="../images/blog21.jpg" alt="Feature Image">
+        
+        <section>
+            <p class="blog-paragraph">
+                Like any "rule" in the creative world, it's honestly more of a suggestion once you get the hang of why it exists.
+                The inspiration for this post came after I was reading The Design of Everyday Things by Don Norman -- more specifically the section about how contraints are applied.
+                The author covered four types of constraints (coincidentially in Chapter 4).
+                But for the purposes of this post, I'll only include the ones that can more easily apply to digital user interfaces: semantic and logical constraints.
+            </p>
+            <p class="blog-paragraph">
+                Both types are honestly very similar and easy to confuse and overlap.
+                However, as a rule of thumb, semantic constraints come from understanding how something should work while logical constraints come from how the design should most likely work.
+                It's important then to always keep the bigger picture of your design in mind when it comes to these types of constraints.
+                Getting tunnel vision, or the fallacy of getting so familiar with a complicated feature that you forget its complexity, is how these constraints are created ineffectively.
+            </p>
+            <p class="blog-paragraph">
+                Back to the point, once a designer understands why constraints are so helpful, you'd need a good reason to stray away from them.
+                I was actually wondering in what kind of example could constraints be played with, and I was reminded of an ARG called Welcome Home.
+                The feature image is what greets newcomers when they visit the Welcome Home site.
+                It looks friendly, but it's like nearly any modern ARG (alternative reality game).
+                ARG creators who use websites as their storytelling medium break design principles to hide sinister mysteries throughout the interface.
+                Take for example, the "Neighborhood" page that introduces the main cast of characters.
+            </p>
+            <img class="blog-image" src="../images/blog21.1.jpg" alt="Feature Image">
+            <p class="blog-paragraph">
+                It's a bit unconvential to have an interactive image as the navigational interface...
+                But because users know they're supposed to explore the "Neighborhood", they gravitate their cursor towards the houses.
+                Despite there not being many signifiers (besides mostly the cursor changing to the clickable version in the correct areas), the users' semantic understanding of the page's purpose still allows them to effectively use this design.
+            </p>
+            <p class="blog-paragraph">
+                Logically, since all of the houses were interactable, users should assume that's all there is to this page.
+                Or just that anything interactable should be a notably detailed, intricate section of the image.
+                However, that's where the ARG-aspect comes into play.
+                If you click right below the house in the center, it takes you to a different page that teases the mystery of Welcome Home.
+                I won't spoil it, but that's the fun of media like Welcome Home in the first place.
+                Users are supposed to understand what's the flimsy, cute mask of the ARG by what's presented using normal design conventions.
+                It's about uncovering secrets, so the knowledge that this is an ARG that allows a "poorly" designed interface to work.
+            </p>
+        </section>
+    </div>
+
+</body>
+</html>
