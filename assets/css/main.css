@@ -1523,7 +1523,6 @@ input, select, textarea {
 		-webkit-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
 		-ms-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
 		transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
-		-webkit-appearance: none;
 		display: block;
 		border: 0;
 		padding: 0.75em;
@@ -1673,7 +1672,6 @@ input, select, textarea {
 		-webkit-transition: background-color .2s ease-in-out;
 		-ms-transition: background-color .2s ease-in-out;
 		transition: background-color .2s ease-in-out;
-		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
 		color: #fff !important;
@@ -1686,7 +1684,7 @@ input, select, textarea {
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: hsl(186, 60%, 50%);
+		background-color: hsl(266, 60%, 50%);
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -1697,7 +1695,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
+			background-color: hsl(266, 85%, 60%);
 			color: #fff !important;
 		}
 
@@ -1706,7 +1704,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3BA8D3;
+			background-color: hsl(266, 63%, 53%);
 			top: 1px;
 		}
 
@@ -2036,7 +2034,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: hsl(266, 40%, 25%);
+		background-color: hsl(266, 40%, 40%);
 		text-align: center;
 		position: fixed;
 		left: 0;
